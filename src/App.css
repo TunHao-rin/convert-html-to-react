@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+}
+
+.app-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  background: #1f1f1f;
+}
+
+.app-nav button {
+  padding: 8px 16px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #2d2d2d;
+  color: #fff;
+  font: 600 14px Arial, sans-serif;
+  cursor: pointer;
+}
+
+.app-nav button:hover {
+  background: #444;
+}
+
+.app-nav button.active {
+  background: #da291c;
+  border-color: #da291c;
+}
+
+.page {
+  min-height: calc(100vh - 56px);
+}

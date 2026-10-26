@@ -1,0 +1,31 @@
+.practice2 {
+  font-family: Arial, 'Times New Roman', Times, serif, sans-serif;
+  background-image: url("/ChatGPT Image 20_51_13 2 thg 10, 2026.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+}
+.practice2 .page-inner {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.practice2 h1 {
+      color: #0c7c00;
+      text-align: center;
+    }
+.practice2 p {
+      line-height: 1.6;
+    }
+.practice2 .note {
+      background-color: #91ff8576;
+      border: 2px solid #004204;
+      border-radius: 15px;
+      padding: 21px 25px;
+      margin: 25px 0;
+    }
+.practice2 a {
+      color: #91ff8576;
+    }
