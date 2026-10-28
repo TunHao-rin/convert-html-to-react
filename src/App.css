@@ -21,7 +21,9 @@ body {
   border-radius: 6px;
   background: #2d2d2d;
   color: #fff;
-  font: 600 14px Arial, sans-serif;
+  font:
+    600 14px Arial,
+    sans-serif;
   cursor: pointer;
 }
 
